@@ -1,0 +1,18 @@
+@use "../../styles/responsive" as responsive;
+
+.navbar {
+    display: none;
+    @include responsive.tablet{
+    display: flex;
+    max-width: 21.875rem;
+
+    &__link-container{
+        display: flex;
+
+    }
+
+    &__link-login{
+        display: flex;
+    }
+}
+}

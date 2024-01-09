@@ -2,7 +2,7 @@
 
 .burger-menu {
   position: relative;
-  @include responsive.tablet {
+  @include responsive.desktop {
     display: none;
   }
   &__icon {

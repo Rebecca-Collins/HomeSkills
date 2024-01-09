@@ -1,0 +1,7 @@
+@use "./colors" as *;
+
+@mixin navbar-text-mobile{
+color: $nav-links;
+font-weight: bold;
+font-size: 18px;
+}
